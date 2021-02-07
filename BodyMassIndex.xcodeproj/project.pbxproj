@@ -11,6 +11,18 @@
 		000897E125CF1F4200644B95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000897E025CF1F4200644B95 /* ContentView.swift */; };
 		000897E325CF1F4200644B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000897E225CF1F4200644B95 /* Assets.xcassets */; };
 		000897E625CF1F4200644B95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000897E525CF1F4200644B95 /* Preview Assets.xcassets */; };
+		00740B4525CF20AF00BE23A4 /* IndexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B4425CF20AE00BE23A4 /* IndexModel.swift */; };
+		00740B4825CF20DD00BE23A4 /* IndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B4725CF20DD00BE23A4 /* IndexViewModel.swift */; };
+		00740B4E25CF216000BE23A4 /* CardBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B4D25CF216000BE23A4 /* CardBody.swift */; };
+		00740B5125CF218000BE23A4 /* TitleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B5025CF218000BE23A4 /* TitleCard.swift */; };
+		00740B5525CF47AA00BE23A4 /* CardLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B5425CF47AA00BE23A4 /* CardLabel.swift */; };
+		00740B5925CF4C2900BE23A4 /* UnitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B5825CF4C2900BE23A4 /* UnitCard.swift */; };
+		00740B5C25CF4C3800BE23A4 /* HeightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B5B25CF4C3800BE23A4 /* HeightCard.swift */; };
+		00740B5F25CF4C3F00BE23A4 /* WeightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B5E25CF4C3F00BE23A4 /* WeightCard.swift */; };
+		00740B6225CF4C4C00BE23A4 /* ResultsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B6125CF4C4C00BE23A4 /* ResultsCard.swift */; };
+		00740B6525CF4C8600BE23A4 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B6425CF4C8600BE23A4 /* NextButton.swift */; };
+		00740B6825CF4C9200BE23A4 /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B6725CF4C9200BE23A4 /* CalculateButton.swift */; };
+		00740B6B25CF7AA800BE23A4 /* SliderValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B6A25CF7AA800BE23A4 /* SliderValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +32,18 @@
 		000897E225CF1F4200644B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		000897E525CF1F4200644B95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		000897E725CF1F4200644B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00740B4425CF20AE00BE23A4 /* IndexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexModel.swift; sourceTree = "<group>"; };
+		00740B4725CF20DD00BE23A4 /* IndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewModel.swift; sourceTree = "<group>"; };
+		00740B4D25CF216000BE23A4 /* CardBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBody.swift; sourceTree = "<group>"; };
+		00740B5025CF218000BE23A4 /* TitleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCard.swift; sourceTree = "<group>"; };
+		00740B5425CF47AA00BE23A4 /* CardLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLabel.swift; sourceTree = "<group>"; };
+		00740B5825CF4C2900BE23A4 /* UnitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCard.swift; sourceTree = "<group>"; };
+		00740B5B25CF4C3800BE23A4 /* HeightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightCard.swift; sourceTree = "<group>"; };
+		00740B5E25CF4C3F00BE23A4 /* WeightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightCard.swift; sourceTree = "<group>"; };
+		00740B6125CF4C4C00BE23A4 /* ResultsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsCard.swift; sourceTree = "<group>"; };
+		00740B6425CF4C8600BE23A4 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		00740B6725CF4C9200BE23A4 /* CalculateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
+		00740B6A25CF7AA800BE23A4 /* SliderValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				000897DE25CF1F4200644B95 /* BodyMassIndexApp.swift */,
-				000897E025CF1F4200644B95 /* ContentView.swift */,
+				00740B4225CF207C00BE23A4 /* Models */,
+				00740B4325CF208100BE23A4 /* Views */,
 				000897E225CF1F4200644B95 /* Assets.xcassets */,
 				000897E725CF1F4200644B95 /* Info.plist */,
 				000897E425CF1F4200644B95 /* Preview Content */,
@@ -67,6 +92,33 @@
 				000897E525CF1F4200644B95 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00740B4225CF207C00BE23A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00740B4425CF20AE00BE23A4 /* IndexModel.swift */,
+				00740B4725CF20DD00BE23A4 /* IndexViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00740B4325CF208100BE23A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				000897E025CF1F4200644B95 /* ContentView.swift */,
+				00740B4D25CF216000BE23A4 /* CardBody.swift */,
+				00740B5025CF218000BE23A4 /* TitleCard.swift */,
+				00740B5425CF47AA00BE23A4 /* CardLabel.swift */,
+				00740B5825CF4C2900BE23A4 /* UnitCard.swift */,
+				00740B5B25CF4C3800BE23A4 /* HeightCard.swift */,
+				00740B5E25CF4C3F00BE23A4 /* WeightCard.swift */,
+				00740B6125CF4C4C00BE23A4 /* ResultsCard.swift */,
+				00740B6425CF4C8600BE23A4 /* NextButton.swift */,
+				00740B6725CF4C9200BE23A4 /* CalculateButton.swift */,
+				00740B6A25CF7AA800BE23A4 /* SliderValue.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +190,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00740B5C25CF4C3800BE23A4 /* HeightCard.swift in Sources */,
+				00740B5525CF47AA00BE23A4 /* CardLabel.swift in Sources */,
 				000897E125CF1F4200644B95 /* ContentView.swift in Sources */,
+				00740B6225CF4C4C00BE23A4 /* ResultsCard.swift in Sources */,
 				000897DF25CF1F4200644B95 /* BodyMassIndexApp.swift in Sources */,
+				00740B5925CF4C2900BE23A4 /* UnitCard.swift in Sources */,
+				00740B6825CF4C9200BE23A4 /* CalculateButton.swift in Sources */,
+				00740B6525CF4C8600BE23A4 /* NextButton.swift in Sources */,
+				00740B4E25CF216000BE23A4 /* CardBody.swift in Sources */,
+				00740B4525CF20AF00BE23A4 /* IndexModel.swift in Sources */,
+				00740B5F25CF4C3F00BE23A4 /* WeightCard.swift in Sources */,
+				00740B4825CF20DD00BE23A4 /* IndexViewModel.swift in Sources */,
+				00740B6B25CF7AA800BE23A4 /* SliderValue.swift in Sources */,
+				00740B5125CF218000BE23A4 /* TitleCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
